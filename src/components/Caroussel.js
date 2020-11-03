@@ -4,7 +4,7 @@ const Caroussel = ({ images }) => {
   return (
     <div className="caroussel">
       {images.map((url) => {
-        return <img src={url} alt="movie image" />;
+        return <img src={url} alt="movie" />;
       })}
     </div>
   );
