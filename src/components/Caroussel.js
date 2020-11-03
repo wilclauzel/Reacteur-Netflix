@@ -1,10 +1,10 @@
-import Reat from "react";
+import React from "react";
 
 const Caroussel = ({ images }) => {
   return (
     <div className="caroussel">
       {images.map((url) => {
-        return <img src={url} />;
+        return <img src={url} alt="movie image" />;
       })}
     </div>
   );
